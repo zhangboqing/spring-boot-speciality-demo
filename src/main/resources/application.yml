@@ -1,0 +1,30 @@
+spring:
+  datasource:
+    primary:
+      hikari:
+        connection-test-query: SELECT 1 FROM DUAL
+        connection-timeout: 600000
+        maximum-pool-size: 500
+        max-lifetime: 1800000
+        minimum-idle: 20
+        validation-timeout: 3000
+        idle-timeout: 60000
+        connection-init-sql: SET NAMES utf8mb4
+        jdbc-url: jdbc:mysql://114.67.102.157:3306/test?useUnicode=true&characterEncoding=utf8&allowMultiQueries=true&zeroDateTimeBehavior=convertToNull
+        username: root
+        password: 123456
+        driver-class-name: com.mysql.jdbc.Driver
+    secondary:
+      hikari:
+        connection-test-query: SELECT 1 FROM DUAL
+        connection-timeout: 600000
+        maximum-pool-size: 500
+        max-lifetime: 1800000
+        minimum-idle: 20
+        validation-timeout: 3000
+        idle-timeout: 60000
+        connection-init-sql: SET NAMES utf8mb4
+        jdbc-url: jdbc:mysql://140.143.229.63:3306/test?useUnicode=true&characterEncoding=utf8&allowMultiQueries=true&zeroDateTimeBehavior=convertToNull
+        username: root
+        password: 123456
+        driver-class-name: com.mysql.jdbc.Driver

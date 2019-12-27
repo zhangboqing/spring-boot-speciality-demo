@@ -1,0 +1,3 @@
+com.zbq.springbootdemo.speciality.dynamicRegisterBean.ImportBeanDefinitionRegistrar.HelloAnnotation=\
+com.zbq.springbootdemo.speciality.dynamicRegisterBean.ImportBeanDefinitionRegistrar.HelloService,\
+com.zbq.springbootdemo.speciality.dynamicRegisterBean.ImportBeanDefinitionRegistrar.HelloService2
