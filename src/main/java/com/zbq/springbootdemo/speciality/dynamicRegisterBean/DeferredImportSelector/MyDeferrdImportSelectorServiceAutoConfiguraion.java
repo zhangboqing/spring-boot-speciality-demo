@@ -14,9 +14,9 @@ import org.springframework.stereotype.Component;
 @AutoConfigureBefore({MyDeferredImportSelectorConfiguration.class})
 public class MyDeferrdImportSelectorServiceAutoConfiguraion {
 
-    @Bean
-    public  MyDeferrdImportSelectorService createMyDeferrdImportSelectorService() {
-        MyDeferrdImportSelectorService myDeferrdImportSelectorService = new MyDeferrdImportSelectorService();
-        return myDeferrdImportSelectorService;
-    }
+//    @Bean
+//    public  MyDeferrdImportSelectorService createMyDeferrdImportSelectorService() {
+//        MyDeferrdImportSelectorService myDeferrdImportSelectorService = new MyDeferrdImportSelectorService();
+//        return myDeferrdImportSelectorService;
+//    }
 }

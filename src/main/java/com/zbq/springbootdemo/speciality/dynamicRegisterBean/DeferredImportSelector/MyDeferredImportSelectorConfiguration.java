@@ -17,4 +17,10 @@ import org.springframework.context.annotation.Import;
 @AutoConfigureAfter({MyDeferrdImportSelectorServiceAutoConfiguraion.class})
 public class MyDeferredImportSelectorConfiguration {
 
+    @Bean
+    public  MyDeferrdImportSelectorService createMyDeferrdImportSelectorService() {
+        MyDeferrdImportSelectorService myDeferrdImportSelectorService = new MyDeferrdImportSelectorService();
+        return myDeferrdImportSelectorService;
+    }
+
 }

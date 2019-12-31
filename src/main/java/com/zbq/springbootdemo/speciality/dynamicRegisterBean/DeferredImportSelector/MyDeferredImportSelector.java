@@ -14,7 +14,7 @@ import org.springframework.core.type.AnnotationMetadata;
  * @Author zhangboqing
  * @Date 2019/12/30
  */
-public class MyDeferredImportSelector implements ImportSelector, BeanFactoryAware {
+public class MyDeferredImportSelector implements DeferredImportSelector, BeanFactoryAware {
 
 
     private BeanFactory beanFactory;
