@@ -21,8 +21,6 @@ public class MyDeferredImportSelector implements DeferredImportSelector, BeanFac
 
     @Override
     public String[] selectImports(AnnotationMetadata importingClassMetadata) {
-        MyDeferrdImportSelectorService myDeferrdImportSelectorService = beanFactory.getBean(MyDeferrdImportSelectorService.class);
-        myDeferrdImportSelectorService.say();
         return new String[0];
     }
 
