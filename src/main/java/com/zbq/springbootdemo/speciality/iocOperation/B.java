@@ -26,7 +26,6 @@ public class B {
   }
 
   public void say(){
-    a.say();
     System.out.println("b say invoke");
   }
 }
